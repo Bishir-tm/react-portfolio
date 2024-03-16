@@ -183,6 +183,9 @@ a.nav-link:hover{
     margin: 0;
 }
 
+.project{
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.27) !important;
+}
 
 .has-raduis{
     border-radius: 50px !important;

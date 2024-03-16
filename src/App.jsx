@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
-// import Navbar2 from './components/Navbar/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
@@ -16,7 +15,6 @@ const App = () => {
     <div className="border-0 p-0 m-0">
               <div className="bg-opacity-50 bg-primary" >
         <Navbar />    
-        {/* <Navbar2 />     */}
         <HeroSection />
         <About />
         <Skills />

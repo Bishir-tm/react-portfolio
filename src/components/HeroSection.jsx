@@ -45,7 +45,7 @@ const HeroSection = () => {
 
                         </div>
                         
-                        <a href="" className=" my-3 btn btn-outline-light border-2 rounded-pill btn-lg ">Download CV</a>
+                        <a href="./assets/BishirTijjaniResume.pdf" target="_blank" className=" my-3 btn btn-outline-light border-2 rounded-pill btn-lg ">Download CV</a>
 
                         <div className="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                             <button type="button" className="btn-play" data-toggle="modal"

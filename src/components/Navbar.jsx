@@ -47,7 +47,7 @@ const Navbar = () => {
           </li>
 
           <div class="mt-lg-0 mt-3 mb-4 mb-lg-0 ">
-            <a href="#" className="custom-btn btn btn-lg rounded-pill btn-warning text-dark" >Download CV</a>
+            <a href="./assets/BishirTijjaniResume.pdf" target="_blank" className="custom-btn btn btn-lg rounded-pill btn-warning text-dark" >Download CV</a>
           </div>
         </ul>
       </div>

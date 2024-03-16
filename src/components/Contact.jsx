@@ -15,29 +15,26 @@ const Contact = () => {
           <div className=" mx-3 px-3">
           <form className="" action="https://formspree.io/f/xdovwbqr" method="POST">
             <div className="row mt-5">
-              <div className="col-12 col-md-6 col-sm-12">
+              <div className="col-12 col-md-6 col-sm-12 " >
                 {/* <label for="" className="form-label">Email:</label> */}
                 <input
                 type="email" name="email"
-                  className="rounded-pill form-control form-control-lg"
+                  className=" my-2 rounded-pill form-control form-control-lg"
                   id="inputEmail4"
                   placeholder="Email"
                 />
               </div>
-              <div className="col-12 col-md-6 col-sm-12">
+              <div className="col-12 col-md-6 col-sm-12 " >
               {/* <label for="username" className="form-label">Email:</label> */}
               <input
               type="text" name="username"
-                className="rounded-pill form-control form-control-lg"
+                className=" my-2 rounded-pill form-control form-control-lg"
                 id="inputEmail4"
                 placeholder="Name"
                 />
                 </div>
               </div>
            
-            {/* <div className=" mt-4 ">
-              <label for="" className="mt-5 form-label">Your Message:</label>
-            </div> */}
             <div className="row">
               <textarea
               name="message"
