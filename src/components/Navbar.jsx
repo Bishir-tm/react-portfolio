@@ -31,6 +31,9 @@ const Navbar = () => {
       >
         <ul className="navbar-nav text-center">
           <li className="nav-item px-5 basic-staggering-demo">
+            <a className="nav-link text-white" href="#home">home</a>
+          </li>
+          <li className="nav-item px-5 basic-staggering-demo">
             <a className="nav-link text-white" href="#about">About</a>
           </li>
           <li className="nav-item px-5 basic-staggering-demo">

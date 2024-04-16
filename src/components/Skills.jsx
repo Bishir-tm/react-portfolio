@@ -5,7 +5,7 @@ import {
 } from 'react-tippy';
 
 
-import {SiBootstrap, SiHtml5, SiGit, SiGithub, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiSass, SiPhp} from '@icons-pack/react-simple-icons'
+import {SiBootstrap, SiHtml5, SiGit, SiGithub, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiSass, SiMongodb,} from '@icons-pack/react-simple-icons'
 
 const skillsData = [
     {
@@ -45,8 +45,8 @@ const skillsData = [
         icon: <SiBootstrap color='#202143' size={55}  />,
     },
     {
-        skill: 'Php',
-        icon: <SiPhp color='#202143' size={55}  />,
+        skill: 'MongoDB',
+        icon: <SiMongodb color='#202143' size={55}  />,
     },
 ]
 

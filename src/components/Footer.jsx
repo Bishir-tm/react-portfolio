@@ -3,12 +3,12 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className="container-fluid bg-oxford p-4 m-auto">
-        <div id="foot" className="rounded-pill mb-5">
+        <div id="foot" className="rounded-pill ">
             <div className="d-flex flex-wrap justify-content-between p-3 py-2">
             <dv className="row">
                 <ul className="nav col-12 justify-content-end list-unstyled d-flex">
                 <li>
-                    <a className="btn btn-outline-primary rounded-pill" href="https://www.linkedin.com/in/bishir-tijjani-b1894726a" target="_blank">
+                    <a className="btn btn-outline-primary rounded-pill" href="https://www.linkedin.com/in/bishir" target="_blank">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="25"
@@ -69,40 +69,59 @@ const Footer = () => {
         <hr className="bg-light" />
         <div className="container">
             <div className="row">
-            <div className="col-12 col-md-6">
-                <h5 className="text-light">Contact Information</h5>
-                <ul className="list-unstyled text-secondary overflow-visible">
-                <li>
-                    Email:
-                    <a href="mailto:bitmo24@gmail.com"
-                    >bitmo24@gmail.com</a>
-                </li>
-                <li>Phone: +234 90681 49540</li>
-                <li>
-                    LinkedIn:
-                    <a href="https://www.linkedin.com/in/bishir-tijjani-b1894726a">
-                    www.linkedin.com/
-                    </a>
-                </li>
-                </ul>
+                <div className="col-12 col-md-4 border-end ">
+                    <h5 className="text-light text-center">Contact Information</h5>
+                    <ul className="list-unstyled overflow-visible text-light">
+                    <li className="border-bottom my-2 p-2">
+                        <img width={'35'} height={'auto'} className='mx-2 img-thumbnail' src="./images/mail.png" alt="" />
+                        <a href="mailto:bishirtijjani247@gmail.com"
+                        >bishirtijjani247@gmail.com</a>
+                    </li>
+                    <li className="border-bottom my-2 p-2">
+                        <img width={'35'} height={'auto'} className='mx-2 img-thumbnail' src="./images/phone.png" alt="" /> (+234) 9068149540</li>
+                    <li className="border-bottom my-2 p-2">
+                        <img width={'35'} height={'auto'} className='mx-2 img-thumbnail' src="./images/linkedin.png" alt="" srcset="" />
+                        <a target='_blank' href="https://www.linkedin.com/in/bishir">
+                        linkedin.com/in/bishir
+                        </a>
+                    </li>
+                    <li className="border-bottom my-2 p-2">
+                        <img width={'35'} height={'auto'} className='mx-2 img-thumbnail' src="./images/twitter.png" alt="" />
+                        <a target='_blank' href="https://twitter.com/bishirtm">
+                        twitter.com/bishirtm
+                        </a>
+                    </li>
+                    <li className="border-bottom my-2 p-2">
+                        <img width={'35'} height={'auto'} className='mx-2 img-thumbnail' src="./images/github.png" alt="github" />
+                        <a target='_blank' href="https://github.com/bishir-tm">
+                        github.com/bishir-tm
+                        </a>
+                    </li>
+                    <li className="border-bottom my-2 p-2">
+                        <img width={'35'} height={'auto'} className='mx-2 img-thumbnail' src="./images/location.png" alt="" />
+                        Katsina, Nigeria
+                    </li>
+                    </ul>
+                </div>
+                {/* <div className="col-12 col-md-4 border-end d-flex align-items-center flex-column">
+                    <h5 className="text-light">Other Projects</h5>
+                    <ul className="list-unstyled">
+                        <li><a href="#">Project 1</a></li>
+                        <li><a href="#">Project 2</a></li>
+                        <li><a href="#">Project 3</a></li>
+                    </ul>
+                </div> */}
+                <div className="col-12 col-md-4 border-end d-flex align-items-center justify-content-center ">
+                    <img  height={'auto'} className='w-75 rounded rounded-circle bg-white' src="./b.svg" alt="" />
+                </div>
             </div>
-            <div className="col-12 col-md-6">
-                <h5 className="text-light">Other Projects</h5>
-                <ul className="list-unstyled">
-                <li><a href="#">Project 1</a></li>
-                <li><a href="#">Project 2</a></li>
-                <li><a href="#">Project 3</a></li>
-                </ul>
-            </div>
-            </div>
+            <hr className="bg-light p-1 rounded"/>
             <div className="row">
             <div className="col-12">
                 <p className="text-center text-secondary">
-                Copyright &copy;
-                <script>
-                    document.write(new Date().getFullYear());
-                </script>
-                Bishir T. M.
+                Copyright &copy;  
+                 {` ${(new Date().getFullYear())} - Bishir TM`}
+            
                 </p>
             </div>
             </div>
