@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 const App = () => {
-  const [isDarkMode, setDarkMode] = useState(false);
 
   return (
     <div className="border-0 p-0 m-0">
