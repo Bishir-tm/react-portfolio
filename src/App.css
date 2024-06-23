@@ -7,7 +7,6 @@
     
 }
 body{
-    background-image: url(../images/daniel-korpai-pKRNxEguRgM-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -266,11 +265,6 @@ li::marker{
 
 }
 
-
-#home{
-    background-image: url('images/cover-image.png');
-}
-
 .card{
     margin-left: 10px;
     margin-right: 10px;
@@ -323,20 +317,6 @@ ul.slick-dots button::before{
 
 .slick-list{
     margin:auto;
-}
-
-
-.experience{
-    background-image: url('images/cover-image2.png');
-
-
-}
-
-
-
-#skills{
-background-image: url('images/cover-image.png');
-    
 }
 
 .skills div.badge{
