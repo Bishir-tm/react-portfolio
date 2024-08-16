@@ -11,8 +11,9 @@
   },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^9.1.0",
+    "@popperjs/core": "^2.11.8",
     "@reduxjs/toolkit": "^1.9.7",
-    "bootstrap": "^5.3.0",
+    "bootstrap": "^5.3.3",
     "framer-motion": "^10.16.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.0",
