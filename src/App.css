@@ -5,6 +5,12 @@
   font-family: "poppins", Helvetica, sans-serif;
   font-size: large;
 }
+
+@font-face {
+  font-family: "Fredoka";
+  src: url("/fonts/Fredoka.ttf") format("truetype");
+}
+
 body {
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,16 +28,6 @@ body {
 
 .btn-outline-primary:hover {
   color: white;
-}
-
-p,
-label,
-b,
-div,
-details,
-summary,
-span {
-  /* font-family: Fredoka !important; */
 }
 
 h1,
@@ -158,7 +154,7 @@ a.scroll {
   color: #040926ff;
 }
 
-.btn-outline-primary > *a:hover {
+.btn-outline-primary > a:hover {
   color: white;
 }
 
@@ -314,40 +310,6 @@ li::marker {
   width: fit-content;
 }
 
-.slick-prev {
-  z-index: 1;
-}
-
-.slick-prev.slick-arrow:before,
-.slick-next.slick-arrow:before {
-  position: relative;
-  background-color: #0d6efd;
-  border-radius: 50%;
-  padding: 3px;
-  color: rgb(237, 227, 227);
-  font-size: xx-large;
-}
-.slick-prev.slick-arrow:before {
-  position: relative;
-  left: 30px;
-}
-.slick-next.slick-arrow:before {
-  position: relative;
-  right: 50px;
-  z-index: 5001;
-}
-
-ul.slick-dots button::before {
-  font-size: x-large;
-  width: 35px;
-  height: 35px;
-  color: #0d6efd !important;
-}
-
-.slick-list {
-  margin: auto;
-}
-
 .skills div.badge {
   width: 110px;
   height: 110px;
@@ -369,7 +331,7 @@ span.typed-cursor {
 /******************* Experience timeline ******************/
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
